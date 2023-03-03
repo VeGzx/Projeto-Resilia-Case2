@@ -1,0 +1,125 @@
+#AdmMain {
+  padding-top: 10vh;
+  background-color: #0a0a0af1;
+  min-height: 100vh;
+}
+
+#wrapForm{
+  background-color: #294053;
+  width: 20%;
+  min-width:320px;
+  margin: auto;
+  padding-block: 16px;
+}
+.wrapInfos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#wrapInfos input {
+  margin-bottom: 5px;
+  border-radius: 3px;
+  border: none;
+  padding: 6px 16px;
+}
+#wrapInfos input::placeholder{
+  font-weight: 500;
+}
+#wrapInfos h2{
+  font-size: 1.6rem;
+  color: rgb(214, 214, 214);
+  margin-bottom: 16px;
+}
+#btnEnviar {
+  background-color: rgb(0, 231, 143);
+  width: 40%;
+  border: none;
+  margin-top: 10px;
+}
+#resultados{
+  width: 100%;
+  margin: auto;
+  color: white;
+  border-block: 1px solid #0dcaf0;
+  padding-block: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#resultados2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#resultados2 div{
+
+  display: flex;
+  flex-direction: column;
+}
+#resultados2 div p{
+  margin-bottom: 0;
+}
+
+#resultados2 p span{
+  color: red;
+}
+#buttonResultados{
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 6px;
+}
+
+#resultados p span{
+  color: #0dcaf0;
+  font-weight: 700;
+}
+.ReactModal__Overlay, .ReactModal__Overlay--after-open {
+  background: rgba( 255, 255, 255, 0.35 ) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 13.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#modal {
+  background-color: #0a0a0af1  !important;
+  color: #0dcaf0;
+  height: 70%;
+  max-width: 800px;
+  margin: auto;
+  
+}
+#wrapBtnFechar{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@media (min-width:890px){
+  #resultados p{
+    font-size: 1.7rem;
+  }
+  #resultados2 {
+    max-width: 800px;
+  }
+  #wrapForm{
+    width: 600px;
+    height: 400px;
+  }
+  #wrapInfos{
+    margin-top: 30px;
+  }
+  #wrapInfos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 36px;
+  }
+  #wrapInfos input{
+    width: 60%;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,30 @@
+:root {
+    --font-doistexto: 'Oitobittxt2'; 
+    --font-titulo: 'Oitobit';
+    --font-texto: 'Oitobit-txt'
+
+}
+.conteudo-margin {
+    margin-top: 66px;
+}
+
+.active.nav-link {
+    color: #5caae9 !important;
+    border-bottom: 1px solid #5ae4d1 !important;
+}
+
+.nav-link{
+    border-bottom: 1px solid transparent;
+}
+
+#titulo1{
+    font-size: 65px;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+}
+
+/* .logo{
+    font-family: 'Oitobit-txt';
+    src: url(../font/8-BITWONDER.TTF)
+} */
+
